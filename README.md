@@ -11,7 +11,7 @@ The pipeline included preprocessing, data augmentation, training visualization (
 ### Q2 — Robust Zero-Shot Classification with CLIP  
 Evaluated **CLIP** on CIFAR-10 in a **zero-shot classification** setting, then tested robustness against adversarial attacks (**PGD, FGSM**).  
 Applied defense methods including **LoRA fine-tuning**, **TeCoA adversarial training**, and **visual prompting** to improve adversarial resilience.  
-
+ 
 - **Results:**  
   - Base CLIP: clean ≈ 87.8%, adv ≈ 54.9%  
   - LoRA: clean ≈ 82.2%, adv ≈ 70.8%  
